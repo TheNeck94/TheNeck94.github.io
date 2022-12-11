@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(25, 39, 52);
+}
+
+#mainHeaderPic {
+   margin-top:80px;
+    width:15%;
+}
+
+#header h1,h2 {
+    color:rgb(195, 202, 208);
+    margin: auto;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutMeCard {
+
+}
+
+#aboutMeDiv {
+    margin:10%;
+    color: rgb(195, 202, 208);
+    background-color: rgb(45, 58, 70);
+    padding: 40px;
+}
+
+#testimonialDiv {
+    margin:10%;
+    color: rgb(195, 202, 208);
+    background-color: rgb(45, 58, 70);
+    padding: 40px;
+}
+
+#codeExamplesDiv {
+    margin:10%;
+    color: rgb(195, 202, 208);
+    background-color: rgb(45, 58, 70);
+    padding: 40px;
+}
+
+#testimonialDiv h1,h2,h3,h4,h5,h6 {
+    margin: auto;
+}
+
+#testimonialDiv img {
+    width:60%;
+    margin: auto;
+    margin-top:40px;
+}
+
+#categories {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color:rgb(45, 58, 70);
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+}
+
+.card * {
+    color: rgb(195, 202, 208);
+}
+
+#codeExamplesCard, #codeExamplesCard * {
+    background-color:rgb(84, 98, 111);
+}
